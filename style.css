@@ -1,0 +1,375 @@
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&family=Roboto+Mono&display=swap');
+
+
+@media only screen and (min-width: 300px) {
+    body {
+        background-color: #5447e6;
+        text-decoration: none;
+        color: white;
+        }
+
+    .rotatedlayer {
+        background-color: azure;
+        width: 100%;
+        z-index: 2;
+        height: 100%;
+     
+    }    
+
+    a {
+        text-decoration: none;
+    }
+
+    .header {
+        display: flex;
+        justify-content: flex-end;
+        }
+
+    .navbar {
+        z-index: -1;
+        display: flex;
+        justify-content: center;
+        height: 3rem;
+        margin: 5px;
+    }
+
+    #buttoncalcicon {
+        background-color: #5447e6;
+        height: 100%;
+        border-style: none;
+        display: flex;
+        justify-content: flex-end;
+    }
+
+    #calcicon {
+        height: 100%;
+        border-style: none;
+    }
+
+    .theodors,
+    .instagram {
+        display: none;
+        }
+
+   
+    #login {
+        display: none;
+    }
+
+    .herobackground {
+        width: 100%;
+    }
+
+    .maindiv {
+        width: 100%;
+        margin: 0 auto 0 auto;
+        display: block;
+        text-align: center;
+        gap: 1rem;
+    }
+
+
+    .leftcolumn,
+    .rightcolumn {
+        display: block;
+        width: 90%;
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+        margin-left: auto;
+        margin-right: auto;
+        font-size: medium;
+        font-style: italic;
+
+
+    }
+
+    .fleximage {
+        display: flex;
+        width: 100%;
+        margin-top:5px;
+    }
+
+    .impressum {
+        background-color: #7272c9;
+        font-size: x-small;
+        width:100%;
+        margin: 0 auto 0 auto;
+        padding-bottom: 0px;
+        text-align: center;
+        border:1px solid #7272c9;
+
+        }
+    
+        .textflex{
+        margin-top: 5px;
+    }
+    .pmargin{
+        
+        margin-bottom:0px;}
+
+}
+
+
+
+@media only screen and (min-width: 460px) {
+    body {
+        background-color: #3333f0;
+        }
+
+    .theodors,
+    .instagram {
+    display: flex;
+    }
+    
+    #login {
+    display: flex;
+    }
+    
+    a {
+        color: white;
+        text-decoration: none;
+    }
+
+    a:visited {
+        color: white;
+    }
+
+    .header {
+        display: flex;
+        justify-content: center;
+    
+    }
+
+
+    .navbar {
+        display:flex;
+        height: 3rem;
+        justify-content: space-around;
+        align-items: center;
+        width: 100%;
+        font-family: Roboto Mono;
+        
+        
+    }
+    
+   
+    
+    #calcicon{
+        height: 2.5rem;
+    }
+
+
+    #buttoncalcicon {
+        background-color: #3333f0;
+        border-style: none;
+        width: 2rem;
+
+    }
+
+  button {
+        position: relative;
+        background-color: gold;
+        bottom: 0px;
+        color: #000000;
+        border: 2px solid black;
+        padding: 1px;
+        margin: 0px;
+        border-radius: 12px;
+        font-size: large;
+        width: 6rem;
+        height: 2rem;
+        justify-content: center;
+        align-items: center;
+        
+
+    }
+
+    .herobackground {
+        width: 100%;
+    }
+
+    .leftcolumn,
+    .rightcolumn {
+        display: inline-block;
+        width: 50%;
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+        font-size: xx-large;
+        font-style: italic;
+    }
+
+    .fleximage {
+        display: inline-block;
+        width: 100%;
+        }
+
+
+    .textflex{
+        display: inline-block;
+
+    }
+    .maindiv {
+        display: inline-block;
+        width: 90%;
+        margin: auto;
+        color: white;
+        display: flex;
+        background-color: #3333f0;
+    }
+
+    .impressum {
+        border:#3333f0 solid 4px;
+        border-radius: 10px;
+        padding-top: 0.8rem;
+        padding-bottom: 0.8rem;
+        background-color: #7a7ad8df;
+        color: white;
+        text-align: center;
+        font-size: small;
+    }
+    .theodors, .instagram {
+        display: flex;
+        color: white;
+    }
+ 
+
+}
+/*
+@media only screen and (min-width: 800px) {
+        {
+        body {
+            background-color: #3333f0;
+            text-decoration: none;
+        }
+
+        a {
+            color: white;
+            text-decoration: none;
+        }
+
+        a:visited {
+            color: white;
+        }
+
+        .calculating {
+            width: 2rem;
+            height: 100%;
+        }
+
+        .navbar {
+            display: flex;
+            justify-content: center;
+            width: 100%;
+        }
+
+        #dropdown {
+            display: flex;
+            background-color: #3333f0;
+            gap: 1rem;
+            justify-content: space-evenly;
+            align-items: center;
+            height: 2.8rem;
+            color: white;
+            font-size: large;
+            width: 100%;
+            height: auto;
+            align-items: center;
+            color: white;
+            font-size: xx-large;
+
+        }
+
+        .theodors:visited {
+            color: white;
+            font-family: Roboto Mono;
+            text-decoration: none;
+        }
+
+        .instagram:visited {
+            color: white;
+            font-family: Roboto Mono;
+            text-decoration: none;
+        }
+
+        #dropdown {
+            background-color: #3333f0;
+            border: 0px;
+            padding: 0px;
+            margin-top: 0.2rem;
+            margin-bottom: 0.2rem;
+            margin-left: 0px;
+            margin-right: 0px;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            color: white
+        }
+
+        #dropdown:visited {
+            color: white
+        }
+
+        #logo {
+            width: 100%;
+        }
+
+        #calculating {
+            background-color: #3333f0;
+            width: 5%;
+            height: auto;
+            padding: 0;
+            margin: 0;
+            border: 0;
+        }
+
+        #login {
+            background-color: #e4d84f;
+            border: 2px solid black;
+            padding: 7px;
+            margin: 0px;
+            border-radius: 12px;
+
+        }
+
+        .herobackground {
+            width: 100%;
+        }
+
+        .leftcolumn,
+        .rightcolumn {
+            width: 50%;
+            margin-top: 2rem;
+            margin-bottom: 2rem;
+            font-size: xx-large;
+            font-style: italic;
+        }
+
+        .fleximage {
+            display: flex;
+            width: 100%
+        }
+
+        .maindiv {
+            width: 80%;
+            margin: auto;
+            color: white;
+            display: flex;
+            justify-content: space-evenly;
+            align-items: center;
+            gap: 1rem;
+        }
+
+        .impressum {
+            padding-top: 0.8rem;
+            padding-bottom: 0.8rem;
+            background-color: #7a7ad8df;
+            color: white;
+            text-align: center;
+            font-size: xx-small;
+        }
+
+        
+
+
+    }
+}-*/
